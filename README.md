@@ -44,7 +44,7 @@ against it twice on every push and pull request, then the assertions that must f
 
 ## From nothing to a green run
 
-What the machine needs: Docker, [DDEV](https://ddev.com), git, Python 3, and Node.js 20 or later with npm. The
+What the machine needs: Docker, [DDEV](https://ddev.com), git, Python 3, and Node.js 24 or later with npm. The
 server runs in the project's containers: no PHP on the machine, no public domain and no account anywhere. The
 release tarball is about 240 MB and the site about 1 GB on disk.
 
@@ -242,7 +242,7 @@ OCS APIs as such (webship-js's own API steps cover them; the pack uses them only
 
 ## Requirements
 
-- Node.js 20 or later
+- Node.js 24 or later
 - A webship-js 2.0 test project (webship-js 2.0.16 or later)
 - A Nextcloud server (35.x) with the accounts for the suite (an administrator among them, for the test-data steps)
   and a mail catcher for the forgotten password
