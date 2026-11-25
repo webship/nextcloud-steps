@@ -1,6 +1,6 @@
 {
   "name": "@webship-js/nextcloud-steps",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Cucumber step definitions for testing a Nextcloud file and collaboration server, a plugin for webship-js (Playwright and Cucumber): the login and its refusal, logging out and the forgotten password through the mail catcher, the header (apps menu, user menu, online status, error pages) and the dashboard with its widgets, Files (upload, new folder, rename, move or copy, delete and restore from the deleted files, favorites, the details sidebar and its tabs), sharing with an account and a public link with a password and an expiration date opened as a visitor, the viewers for pictures, PDF and text, the unified search, notifications, the activity stream, the personal settings (profile, password, theme) and the administrator's accounts page, read only or with its refusals.",
   "main": "tests/step-definitions/nextcloud-session.steps.js",
   "files": [
